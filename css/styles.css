@@ -1,5 +1,5 @@
 body {
-    margin: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,10 +12,10 @@ body {
 }
 
 .order-card {
-    margin: 20px;
     width: 450px;
     align-items: center;
     display: flex;
+    margin-top: 80px;
     overflow: hidden;
     background-color: white;
     border-radius: 12px;
@@ -132,6 +132,7 @@ body {
     font-size: 10px;
     text-align: center;
     opacity: .6;
+    margin: 20px;
 }
 
 .attribution a {

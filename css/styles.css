@@ -1,0 +1,150 @@
+body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.order-card {
+    margin: 20px;
+    width: 450px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 12px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.order-card h1 {
+    font-weight: 900;
+    margin: 40px;
+    margin-bottom: 0;
+    font-size: xx-large;
+    font-size: 32px;
+}
+
+.description {
+    line-height: 1.5;
+    margin: 12px 50px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.order-card img {
+    width: 100%;
+}
+
+.plan-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 12px 20px;
+    border-radius: 8px;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.pay-btn {
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    margin: 12px 20px;
+    padding: 15px 10px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 8px 16px hsl(224, 23%, 55%);
+    transition: .1s ease-in;
+}
+
+.pay-btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.plan-name {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-name img {
+    width: 25%;
+    margin-left: 8px;
+}
+
+.plan-name h4 {
+    margin: 0;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.plan-details a {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.plan-details a:hover {
+    text-decoration: none;
+}
+
+.plan-name .plan-price {
+    margin-left: 8px;
+    padding: 12px;
+    text-align: start;
+}
+
+.plan .plan-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-price span {
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    transition: .2s ease-in;
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+.attribution {
+    font-size: 10px;
+    text-align: center;
+    opacity: .6;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+
+    body {
+        background-image: url(../images/pattern-background-mobile.png);
+    }
+
+    .order-card {
+        width: 100%;
+    }
+}

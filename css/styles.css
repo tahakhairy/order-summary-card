@@ -15,10 +15,11 @@ body {
     width: 450px;
     align-items: center;
     display: flex;
+    box-shadow: 0 16px 16px hsla(224, 23%, 55%, 0.322);
     margin-top: 80px;
     overflow: hidden;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 20px;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -49,7 +50,7 @@ body {
     align-items: center;
     padding: 12px;
     background-color: hsl(225, 100%, 98%);
-    margin: 12px 20px;
+    margin: 12px 24px;
     border-radius: 8px;
     width: 80%;
     justify-content: space-between;
@@ -58,7 +59,7 @@ body {
 .pay-btn {
     width: 80%;
     background-color: hsl(245, 75%, 52%);
-    margin: 12px 20px;
+    margin: 12px 24px;
     padding: 15px 10px;
     border-radius: 12px;
     color: white;
@@ -118,7 +119,7 @@ body {
     margin-top: 16px;
     margin-bottom: 30px;
     color: hsl(224, 23%, 55%);
-    font-weight: bold;
+    font-weight: 900;
     transition: .2s ease-in;
 }
 

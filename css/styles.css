@@ -25,12 +25,15 @@ body {
     text-align: center;
 }
 
-.order-card h1 {
+.summary {
+    padding: 10px 16px;
+}
+
+.order-card h2 {
     font-weight: 900;
     margin: 40px;
     margin-bottom: 0;
-    font-size: xx-large;
-    font-size: 32px;
+    color: hsl(223, 47%, 23%);
 }
 
 .description {
@@ -86,6 +89,7 @@ body {
 }
 
 .plan-name h4 {
+    color: hsl(223, 47%, 23%);
     margin: 0;
     font-weight: 900;
     margin-bottom: 4px;
@@ -116,7 +120,7 @@ body {
 }
 
 .cancel-btn {
-    margin-top: 16px;
+    margin-top: 24px;
     margin-bottom: 30px;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
